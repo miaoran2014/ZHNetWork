@@ -59,5 +59,13 @@
     return deviceID;
 }
 
++ (NSString *)wcGetTime {
+	//NSTimeInterval *interval =
+	NSDate *date1 = [[NSDate alloc]init];
+	NSTimeInterval time = [date1 timeIntervalSince1970];
+	NSString *strTime = [NSString stringWithFormat:@"%f",time];
+	return strTime;
+}
+
 
 @end
