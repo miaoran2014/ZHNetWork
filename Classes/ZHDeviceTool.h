@@ -25,5 +25,9 @@
 ///  获取设备id
 + (NSString *)wcGetDeviceID;
 
++ (NSString *)wcGetTime;
+
++ (NSString *)wcVersionInterception;
+
 
 @end
